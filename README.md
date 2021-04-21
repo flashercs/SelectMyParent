@@ -1,33 +1,10 @@
-========================================================================
-    CONSOLE APPLICATION : SelectMyParent Project Overview
-========================================================================
+start a program with a selected parent process
+Source code put in public domain by Didier Stevens, no Copyright
+Use at your own risk
 
-AppWizard has created this SelectMyParent application for you.
+usage: SelectMyParent.exe program ppid showWindow
 
-This file contains a summary of what you will find in each of the files that
-make up your SelectMyParent application.
-
-
-SelectMyParent.vcproj
-    This is the main project file for VC++ projects generated using an Application Wizard.
-    It contains information about the version of Visual C++ that generated the file, and
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-SelectMyParent.cpp
-    This is the main application source file.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named SelectMyParent.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" comments to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+params:
+program:The commandline of the child process,may include arguments.
+ppid:The parent processID 
+showWindow:The window style of the child process.
