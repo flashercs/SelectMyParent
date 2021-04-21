@@ -1,0 +1,8 @@
+/.vs/
+/Backup/
+/Debug/
+/Release/*
+!/Release/*.exe
+!/Release/*.bat
+/SelectMyParent/Debug/
+/SelectMyParent/Release/
